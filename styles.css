@@ -1,0 +1,10 @@
+body {
+    background-color: #1f2530 !important;
+    min-height: 100% !important;
+    min-height: 100vh !important;
+}
+
+.container {
+    max-width: 430px !important;
+    background-color: #1b2435 !important;
+}
