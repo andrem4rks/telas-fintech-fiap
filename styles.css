@@ -1,10 +1,40 @@
 body {
-    background-color: #1f2530 !important;
     min-height: 100% !important;
     min-height: 100vh !important;
+    background-color: #1e2222 !important;
 }
 
 .container {
     max-width: 430px !important;
     background-color: #1b2435 !important;
+    border-width: 0px !important;
+}
+
+.primary-bg-gradient {
+    background: rgb(141,156,205);
+    background: linear-gradient(124deg, rgba(141,156,205,1) 1%, rgba(114,219,200,1) 100%);
+}
+
+h1 {
+    font-size: 72px !important;
+}
+
+button {
+    border-color: transparent !important;
+}
+
+input {
+    background-color: #1b2435 !important;
+    border: transparent !important;
+}
+
+input::placeholder {
+    font-size: large !important;
+    color: rgb(204, 204, 204) !important;
+}
+
+.primary-font-gradient {
+    background: linear-gradient(124deg, rgb(113, 139, 221) 1%, rgb(4, 218, 178) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
